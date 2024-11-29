@@ -1,0 +1,11 @@
+[Added Associations]
+text/plain=code.desktop;
+application/x-shellscript=code.desktop;
+application/x-genesis-rom=code.desktop;
+application/xml=code.desktop;
+image/jpeg=viewnior.desktop;gimp.desktop;
+text/x-matlab=code.desktop;
+application/json=code.desktop;
+
+[Default Applications]
+text/plain=code.desktop

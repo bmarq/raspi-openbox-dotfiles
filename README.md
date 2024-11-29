@@ -49,9 +49,9 @@ https://raw.githubusercontent.com/addy-dclxvi/dotfiles/
 - Connect to the internet
 - Install git
 - **Clone this repo** `git clone https://github.com/bmarq/raspi-openbox-dotfiles.git ~/dotfiles`
-- Deploy the dotfiles `cp -a ~/dotfiles/.config/. ~/.config`
-- Deploy the system files `cp -a ~/dotfiles/etc/ /etc`
-- Setup Openbox packages `sh ~/.scripts/openboxpack`
+- Deploy the dotfiles `cp -a ~/dotfiles/config/. ~/.config`
+- Deploy the system files `sudo cp -a ~/dotfiles/system/etc/ /etc`
+- Setup Openbox packages `sudo ~/.config/scripts/openboxpack`
 - Add user to sudoers using `visudo`
 - Reboot
 - Fix some errors

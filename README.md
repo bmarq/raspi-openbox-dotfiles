@@ -45,7 +45,7 @@
 - Install RaspiOS minimal without any DE
 - Connect to the internet
 - Install git
-- **Clone this repo** `git clone --depth=1 https://github.com/ ~/dotfiles` **Create github project**
+- **Clone this repo** `git clone https://github.com/bmarq/raspi-openbox-dotfiles.git ~/dotfiles`
 - Deploy the dotfiles `cp -a ~/dotfiles/.config/. ~/.config`
 - Deploy the system files `cp -a ~/dotfiles/etc/ /etc`
 - Setup Openbox packages `sh ~/.scripts/openboxpack`

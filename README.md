@@ -101,6 +101,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - faba-icon-theme
 - ffmpeg
 - file
+- firefox-esr
 - fonts-liberation2
 - gtk2-engines-pixbuf
 - gucharmap
@@ -126,6 +127,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - policykit-1-gnome
 - pulseaudio
 - ranger
+- rpd-plym-splash
 - rofi
 - scrot
 - slick-greeter

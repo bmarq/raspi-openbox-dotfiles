@@ -55,10 +55,13 @@ draw-grid=false\
 background=/usr/share/images/desktop-base/default (or other)
 
 - **Clone this repo** `git clone https://github.com/bmarq/raspi-openbox-dotfiles.git ~/dotfiles`
-- Deploy the dotfiles `cp -a ~/dotfiles/config/. ~/.config`
+- Deploy the dotfiles:\
+  `cp -a ~/dotfiles/config/. ~/.config`\
+  `cp -a ~/dotfiles/config/fontconfig ~/.fontconfig` \
+  `cp -a ~/dotfiles/config/themes ~/.themes`\
+  `cp -a ~/dotfiles/config/scripts ~/.scripts`
 - Deploy the system files `sudo cp -a ~/dotfiles/system/etc/ /etc`
-- Setup Openbox packages `sudo sh ~/.config/scripts/openboxpack`
-- Add user to sudoers using `visudo`
+- Setup Openbox packages `sudo sh ~/.scripts/openboxpack`
 - Reboot
 - Fix some errors
 - Start working

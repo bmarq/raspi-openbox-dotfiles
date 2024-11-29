@@ -50,11 +50,13 @@ https://github.com/addy-dclxvi/dotfiles/
 - your raspi-config configuration
 - Install: git openbox lightdm slick-greeter
 - create file /etc/lightdm/slick-greeter.conf with:
+
 <br />
-[Greeter] \
-draw-grid=false \
+[Greeter]
+draw-grid=false
 background=/usr/share/images/desktop-base/default (or other)
 <br />
+
 - **Clone this repo** `git clone https://github.com/bmarq/raspi-openbox-dotfiles.git ~/dotfiles`
 - Deploy the dotfiles `cp -a ~/dotfiles/config/. ~/.config`
 - Deploy the system files `sudo cp -a ~/dotfiles/system/etc/ /etc`

@@ -9,7 +9,7 @@ https://github.com/addy-dclxvi/dotfiles/
 
 ## Details
 ### Raspberry Pi 5
-- **Distro:** RaspiOS (Bookworm)
+- **Distro:** Raspberry Pi OS (Bookworm)
 - **Display Server:** X11
 - **Display Manager:** LightDM
 - **Greeter:** slick-greeter

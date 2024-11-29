@@ -6,43 +6,43 @@
 
 ## Details
 ### Raspberry Pi 5
-- **Distro** RaspiOS (Bookworm)
-- **Display Server** X11
-- **Display Manager** LightDM
-- **Greeter** slick-greeter
-- **WM** Openbox
-- **Desktop Environment** None
-- **Launcher** Rofi
-- **Terminal** Alacritty
-- **Compositor** Picom
-- **GTK Theme** Arc
-- **Icons** Faba
-- **Cursor** Breeze
-- **Panel** polybar
-- **Start Menu** personalized
-- **File Manager** Thunar
-- **System Tray** Trayer
-- **Archiver** XArchiver
-- **Video Player** MPV
-- **Web Browser** Firefox ESR
-- **Encoder/Decoder** ffmpeg
-- **Task Manager** HTOP
-- **Image Viewer** Viewnior
-- **Sound Mixer** PulseAudio
-- **Policy Kit Frontend** Gnome Polkit
-- **Pager** Less
-- **Notification Daemon** Dunst
-- **CLI Shell** bash
-- **CLI File Manager** Ranger
-- **CLI Image Viewer** Caca
-- **CLI Text Editor** nano
-- **GUI Text Editor** VS Code
+- **Distro:** RaspiOS (Bookworm)
+- **Display Server:** X11
+- **Display Manager:** LightDM
+- **Greeter:** slick-greeter
+- **WM:** Openbox 3
+- **Desktop Environmen:t** None
+- **Launcher:** Rofi
+- **Terminal:** Alacritty
+- **Compositor:** Picom
+- **GTK Theme:** Arc
+- **Icons:** Faba
+- **Cursor:** Breeze
+- **Panel:** Polybar
+- **Start Menu:** personalized
+- **File Manager:** Thunar
+- **System Tray:** Trayer
+- **Archiver:** XArchiver
+- **Video Player:** MPV
+- **Web Browser:** Firefox ESR
+- **Encoder/Decoder:** ffmpeg
+- **Task Manager:** HTOP
+- **Image Viewer:** Viewnior
+- **Sound Mixer:** PulseAudio
+- **Policy Kit Frontend:** Gnome Polkit
+- **Pager:** Less
+- **Notification Daemon:** Dunst
+- **CLI Shell:** Bash
+- **CLI File Manager:** Ranger
+- **CLI Image Viewer:** Caca
+- **CLI Text Editor:** nano
+- **GUI Text Editor:** VS Code
 - **Screenshooter** scrot
-- **Wallpaper Handler** Hsetroot
-- **Music Player** Audacious
+- **Wallpaper Handler:** Hsetroot
+- **Music Player:** Audacious
 
-## How to Setup
-- Install RaspiOS minimal, without any DE
+## How to Setup:
+- Install RaspiOS minimal without any DE
 - Connect to the internet
 - Install git
 - **Clone this repo** `git clone --depth=1 https://github.com/ ~/dotfiles` **Create github project**
@@ -55,19 +55,19 @@
 - Start working
 
 ## Keybinds & Mousebinds
-### Both Openbox & Fluxbox Are Same
+### Openbox
 - **Super + Enter** launch Alacritty
 - **Super + D** launch Rofi with wrapper script
-- **Super + Space** launch root menu (like right click on the desktop)
+- **Super + Space** launch root menu (like right-click on the desktop)
 - **Alt + Tab** switch to next window
 - **Alt + Shift + Tab** switch to previous window
 - **Control + Alt + Left/Right** switch to previous/next workspace
 - **Control + Alt + Up/Down**  switch to previous/next window, just like Alt + Tab
 - **Super + Arrows** "Aero Snap"
 - **Super + 1-4** switch to workspace 1-4
-- **Super + Shift + 1-4** take the current active window to workspace 1-4
+- **Super + Shift + 1-4** take the current active window to workspace 1-...-n
 - **Super + Shift + Left/Right** take the current active window to prev/next workspace
-- **Super + Alt + Arrows** switch focus to other window in the desired direction
+- **Super + Alt + Arrows** switch focus to another window in the desired direction
 - **Super + Control + Arrows** teleport
 - **Super + A** central the current focus window
 - **Super + C** close
@@ -75,13 +75,13 @@
 - **Super + F** maximize
 - **Super + T** toggle the window decoration
 - **Super + U** roll up the window
-- **Super + Shift + Backspace** reload, do this after modify the configuration files
+- **Super + Shift + Backspace** reload. Do this after modifying the configuration files
 - **Double Click Titlebar** maximize
 - **Scroll Up Titlebar** roll up window
 - **Scroll Down Titlebar** restore rolled up window
 - **Double Click Desktop** list opened programs, so I could survive without a taskbar (Openbox only)
-- **Scrol Up/Down on Volume (Panel)** turn up/down the volume
-- ..More keybinds just read the *~/.config/openbox/rc.xml* file
+- **Scroll Up/Down on Volume (Panel)** turn up/down the volume
+- ... more keybinds just read the *~/.config/openbox/rc.xml* file
 
 ### Mouse Action on polybar 
 - **TBD**
@@ -143,4 +143,4 @@
 
 ## Notes
 - If you want to use this configuration, inspect the code before use.
-- If you find "addy" in the configuration file, replace it with your own username.
+- If you find "bmarq" in the configuration file, replace it with your username.

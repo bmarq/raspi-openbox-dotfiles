@@ -102,6 +102,7 @@ background=/usr/share/images/desktop-base/default (or other) \
 - breeze-cursor-theme
 - ca-certificates
 - caca-utils
+- conky
 - dosfstools
 - dunst
 - exiv2

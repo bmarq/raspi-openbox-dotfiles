@@ -47,13 +47,13 @@ https://github.com/addy-dclxvi/dotfiles/
 ## How to Setup:
 - Install RaspiOS minimal without any DE
 - Connect to the internet
-- Install git
+- your raspi-config configuration
+- Install: git openbox lightdm
 - **Clone this repo** `git clone https://github.com/bmarq/raspi-openbox-dotfiles.git ~/dotfiles`
 - Deploy the dotfiles `cp -a ~/dotfiles/config/. ~/.config`
 - Deploy the system files `sudo cp -a ~/dotfiles/system/etc/ /etc`
 - Setup Openbox packages `sudo sh ~/.config/scripts/openboxpack`
 - Add user to sudoers using `visudo`
-- make your raspi-config configuration
 - Reboot
 - Fix some errors
 - Start working

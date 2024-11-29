@@ -1,5 +1,8 @@
-# raspi-openbox-dotfiles
+# bmarq's raspi-openbox-dotfiles
 ## Preview
+https://github.com/bmarq/raspi-openbox-dotfiles/
+<br />
+
 ### Based on debian openbox/fluxbox dotfiles
 ![openbox](https://raw.githubusercontent.com/addy-dclxvi/dotfiles/)
 <br />

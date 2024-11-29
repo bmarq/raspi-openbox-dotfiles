@@ -104,6 +104,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - file
 - firefox-esr
 - fonts-liberation2
+- gpm
 - gtk2-engines-pixbuf
 - gucharmap
 - gvfs

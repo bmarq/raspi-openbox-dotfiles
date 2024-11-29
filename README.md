@@ -138,6 +138,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - xarchiver
 - xdg-user-dirs
 - xdg-utils
+- xinit
 - xsel
 - xserver-xorg-core
 - xserver-xorg-input-kbd

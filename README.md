@@ -4,7 +4,7 @@ https://github.com/bmarq/raspi-openbox-dotfiles/
 <br />
 
 ### Based on addy's debian-openbox-fluxbox-dotfiles
-https://raw.githubusercontent.com/addy-dclxvi/dotfiles/
+https://github.com/addy-dclxvi/dotfiles/
 <br />
 
 ## Details

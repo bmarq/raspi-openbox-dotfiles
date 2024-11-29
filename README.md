@@ -53,6 +53,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - Deploy the system files `sudo cp -a ~/dotfiles/system/etc/ /etc`
 - Setup Openbox packages `sudo sh ~/.config/scripts/openboxpack`
 - Add user to sudoers using `visudo`
+- make your raspi-config configuration
 - Reboot
 - Fix some errors
 - Start working
@@ -145,7 +146,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - xserver-xorg-input-libinput
 - xserver-xorg-input-mouse
 - xsettingsd
-- youtube-dl
+- youtube-dl / yt-dlp
 
 ## Notes
 - If you want to use this configuration, inspect the code before use.

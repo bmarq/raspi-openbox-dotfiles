@@ -3,8 +3,8 @@
 https://github.com/bmarq/raspi-openbox-dotfiles/
 <br />
 
-### Based on debian openbox/fluxbox dotfiles
-![openbox](https://raw.githubusercontent.com/addy-dclxvi/dotfiles/)
+### Based on addy's debian-openbox-fluxbox-dotfiles
+https://raw.githubusercontent.com/addy-dclxvi/dotfiles/
 <br />
 
 ## Details

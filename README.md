@@ -101,6 +101,7 @@ background=/usr/share/images/desktop-base/default (or other)
 ## Debian packages added by openboxpack script:
 - arc-theme
 - audacious
+- blueman
 - breeze-cursor-theme
 - ca-certificates
 - code

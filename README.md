@@ -99,6 +99,7 @@ background=/usr/share/images/desktop-base/default (or other)
 - **TBD**
 
 ## Debian packages added by openboxpack script:
+- alacritty
 - arc-theme
 - audacious
 - blueman

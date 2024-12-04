@@ -48,19 +48,21 @@ https://github.com/addy-dclxvi/dotfiles/
 - Install RaspiOS minimal without any DE
 - Connect to the internet
 - perform your raspi-config configuration
-- Install: git wget lightdm slick-greeter openbox
+- Install: git wget lightdm slick-greeter
 - create file /etc/lightdm/slick-greeter.conf with:\
 [Greeter]\
 draw-grid=false\
 background=/usr/share/images/desktop-base/default (or other)
 
-- **Clone this repo** `git clone https://github.com/bmarq/raspi-openbox-dotfiles.git ~/dotfiles`
+- **Clone this repo** `git clone https://github.com/bmarq/raspi-openbox-dotfiles.git dotfiles`
 - Deploy the dotfiles:\
-  `cp -a ~/dotfiles/config/. ~/.config`\
-  `cp -a ~/dotfiles/config/fontconfig ~/.fontconfig` \
-  `cp -a ~/dotfiles/config/themes ~/.themes`\
-  `cp -a ~/dotfiles/config/scripts ~/.scripts`
-- Deploy the system files `sudo cp -a ~/dotfiles/system/etc/ /etc`
+  `cp -a ./dotfiles/config/. ~/.config`\
+  `cp -a ./dotfiles/config/fontconfig ~/.fontconfig` \
+  `cp -a ./dotfiles/config/themes ~/.themes`\
+  `cp -a ./dotfiles/config/scripts ~/.scripts`\
+  `cp ./dotfiles/config/wallpaper/wallpaper.jpg /usr/share/images/desktop-base`\
+  
+- Deploy the system files `sudo cp -a ./dotfiles/system/etc/ /etc`
 - Setup Openbox packages `sudo sh ~/.scripts/openboxpack`
 - Reboot
 - Fix some errors
@@ -127,6 +129,8 @@ background=/usr/share/images/desktop-base/default (or other)
 - mpv
 - mtp-tools
 - ntfs-3g
+- openbox
+- obconf
 - p7zip-full
 - pavucontrol
 - picom
@@ -134,6 +138,7 @@ background=/usr/share/images/desktop-base/default (or other)
 - pulseaudio
 - ranger
 - rofi
+- rpd-plym-splash
 - rxvt-unicode
 - scrot
 - tlp

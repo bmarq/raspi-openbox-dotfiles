@@ -56,7 +56,7 @@ https://github.com/addy-dclxvi/dotfiles/
   `cp -a ./dotfiles/config/fontconfig ~/.fontconfig` \
   `cp -a ./dotfiles/config/themes ~/.themes`\
   `cp -a ./dotfiles/config/scripts ~/.scripts`\
-  `cp ./dotfiles/config/wallpaper/wallpaper.jpg /usr/share/images/desktop-base`\
+  `sudo cp ./dotfiles/config/wallpaper/wallpaper.jpg /usr/share/images/desktop-base`
   
 - Deploy the system files `sudo cp -a ./dotfiles/system/etc/ /etc`
 - Setup Openbox packages `sudo sh ~/.scripts/openboxpack`

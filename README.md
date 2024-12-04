@@ -48,7 +48,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - Install RaspiOS minimal without any DE
 - Connect to the internet
 - perform your raspi-config configuration
-- Install: git openbox lightdm slick-greeter
+- Install: git wget lightdm slick-greeter openbox
 - create file /etc/lightdm/slick-greeter.conf with:\
 [Greeter]\
 draw-grid=false\

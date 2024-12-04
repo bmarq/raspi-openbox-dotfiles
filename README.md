@@ -47,7 +47,7 @@ https://github.com/addy-dclxvi/dotfiles/
 ## How to Setup:
 - Install RaspiOS minimal without any DE
 - Connect to the internet
-- your raspi-config configuration
+- perform your raspi-config configuration
 - Install: git openbox lightdm slick-greeter
 - create file /etc/lightdm/slick-greeter.conf with:\
 [Greeter]\

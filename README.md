@@ -8,7 +8,7 @@ https://github.com/addy-dclxvi/dotfiles/
 <br />
 
 ## Details
-### Raspberry Pi 5 (64 bit) / P Zero 2W (32 bit)
+### Raspberry Pi 5 (64 bit)
 - **Distro:** Raspberry Pi OS (Bookworm)
 - **Display Server:** X11
 - **Display Manager:** LightDM

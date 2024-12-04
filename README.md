@@ -129,6 +129,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - obconf
 - p7zip-full
 - pavucontrol
+- openbox / obconf / openbox-menu
 - picom
 - policykit-1-gnome
 - pulseaudio

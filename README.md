@@ -47,8 +47,8 @@ https://github.com/addy-dclxvi/dotfiles/
 ## How to Setup:
 - Install RaspiOS minimal without any DE
 - Connect to the internet
-- perform your raspi-config configuration
 - Install: git wget lightdm slick-greeter
+- Perform your own raspi-config configuration
 
 - **Clone this repo** `git clone https://github.com/bmarq/raspi-openbox-dotfiles.git dotfiles`
 - Deploy the dotfiles:\

@@ -1,2 +1,37 @@
 #!/bin/bash
+#
+#    openboxpack - install necessary deb packs
+#    Copyleft (L) 2024      Bruno Marques <bfmarq@gmail.com>
+#
+#    Author:     Bruno Marques <bfmarq@gmail.com>
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, version 3 of the License.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You can download a copy of the GNU General Public License at <http://www.gnu.org/licenses/>.
+
+export VERSION=1.0
+
+SCRIPT="$(basename $0)"
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+# Ensure we're running as root
+if [ "$(id -u)" != 0 ]; then
+	echo -e "${RED}ERROR: This script must run as root.  Hint...${NC}" 1>&2
+	echo "  sudo $0 $@" 1>&2
+	exit 1
+fi
+
+print_version() {
+   echo "${GREEN}$SCRIPT $VERSION"
+}
+
 apt-get install --no-install-recommends alacritty arc-theme audacious blueman breeze-cursor-theme byobu ca-certificates code conky dosfstools dunst faba-icon-theme ffmpeg file firefox-esr fonts-liberation2 gzip highlight hsetroot htop less libmtp-common libmtp-runtime libnotify-bin man-db mpv mtp-tools ntfs-3g openbox obconf p7zip-full pavucontrol picom policykit-1-gnome pulseaudio ranger rofi rxvt-unicode scrot slick-greeter tlp trayer thunar thunar-archive-plugin viewnior wget xdg-user-dirs xdg-utils xsel xsettingsd youtube-dl yt-dlp

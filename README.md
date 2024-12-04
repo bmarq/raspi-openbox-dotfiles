@@ -104,6 +104,7 @@ background=/usr/share/images/desktop-base/default (or other)
 - audacious
 - blueman
 - breeze-cursor-theme
+- byobu
 - ca-certificates
 - code
 - conky

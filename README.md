@@ -126,6 +126,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - man-db
 - mpv
 - mtp-tools
+- neofetch
 - ntfs-3g
 - openbox
 - obconf

@@ -57,7 +57,7 @@ https://github.com/addy-dclxvi/dotfiles/
   `cp -a ./dotfiles/config/themes ~/.themes`\
   `cp -a ./dotfiles/config/scripts ~/.scripts`\
   `sudo cp ./dotfiles/config/wallpaper/wallpaper.jpg /usr/share/images/desktop-base`
-- Deploy the system files `sudo cp -a ./dotfiles/system/etc/ /etc`
+- Deploy the system files `sudo cp -a ./dotfiles/system/etc/lightdm /etc`
 - Delete file ´/usr/share/xsessions/lightdm-xsession.desktop`
 - Setup Openbox packages: `chmod +x ~/.scripts/openboxpack`\
   sudo ~/.scripts/openboxpack`

@@ -114,7 +114,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - file
 - firefox-esr
 - fonts-liberation2
-- gvfs
+- gpm
 - gzip
 - highlight
 - hsetroot
@@ -123,7 +123,6 @@ https://github.com/addy-dclxvi/dotfiles/
 - libmtp-common
 - libmtp-runtime
 - libnotify-bin
-- man-db
 - mpv
 - mtp-tools
 - neofetch
@@ -132,7 +131,6 @@ https://github.com/addy-dclxvi/dotfiles/
 - obconf
 - p7zip-full
 - pavucontrol
-- python3-xdg
 - openbox / obconf / openbox-menu
 - picom
 - policykit-1-gnome
@@ -140,9 +138,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - ranger
 - rofi
 - rpd-plym-splash
-- rxvt-unicode
 - scrot
-- tlp
 - trayer
 - thunar / thunar-archive-plugin
 - viewnior
@@ -151,7 +147,6 @@ https://github.com/addy-dclxvi/dotfiles/
 - xdg-utils
 - xsel
 - xsettingsd
-- youtube-dl / yt-dlp
 
 ## Notes
 - If you want to use this configuration, inspect the code before use.

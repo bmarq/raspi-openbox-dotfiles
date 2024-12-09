@@ -60,7 +60,7 @@ https://github.com/addy-dclxvi/dotfiles/
 - Deploy the system files `sudo cp -a ./dotfiles/system/etc/ /etc`
 - Delete file ´/usr/share/xsessions/lightdm-xsession.desktop`
 - Setup Openbox packages: `chmod +x ~/.scripts/openboxpack`\
-  sudo sh ~/.scripts/openboxpack`
+  sudo ~/.scripts/openboxpack`
 - Reboot
 - Fix some errors
 - Start working

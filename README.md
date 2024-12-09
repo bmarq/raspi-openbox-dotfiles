@@ -133,7 +133,8 @@ https://github.com/addy-dclxvi/dotfiles/
 - p7zip-full
 - pavucontrol
 - polybar
-- openbox / obconf / openbox-menu
+- openbox
+- obconf
 - picom
 - policykit-1-gnome
 - pulseaudio
@@ -142,7 +143,8 @@ https://github.com/addy-dclxvi/dotfiles/
 - rpd-plym-splash
 - scrot
 - trayer
-- thunar / thunar-archive-plugin
+- thunar
+- thunar-archive-plugin
 - viewnior
 - wget
 - xdg-user-dirs

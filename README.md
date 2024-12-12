@@ -59,7 +59,8 @@ https://github.com/addy-dclxvi/dotfiles/
   `sudo cp ./dotfiles/config/wallpaper/wallpaper.jpg /usr/share/images/desktop-base`
 - Deploy the system files `sudo cp -a ./dotfiles/system/etc/lightdm /etc`
 - rename file ´/usr/share/xsessions/lightdm-xsession.desktop` to other (eg. lightdm-xsession.desktop.orig)
-- Setup Openbox packages: `chmod +x ~/.scripts/openboxpack`\ `sudo ~/.scripts/openboxpack`
+- Setup Openbox packages: `chmod +x ~/.scripts/openboxpack`\
+  `sudo ~/.scripts/openboxpack`
 - Reboot
 - Fix some errors
 - Start working

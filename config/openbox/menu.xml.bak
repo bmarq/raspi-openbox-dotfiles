@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu
+	xmlns="http://openbox.org/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://openbox.org/
+	file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox">
+  		<separator label="Carbon"/>
+
+		<item label="File">
+                        <action name="Execute">
+                                <execute>thunar</execute>
+                        </action>
+                </item>
+		<item label="Browser">
+                        <action name="Execute">
+                                <!-- <execute>firefox-esr</execute> -->
+                                <execute>x-www-browser</execute>
+                        </action>
+                </item>
+		<item label="Terminal">
+			<action name="Execute">
+				<!-- <execute>env LIBGL_ALWAYS_SOFTWARE=1 kitty</execute> -->
+				<execute>x-terminal-emulator</execute>
+			</action>
+		</item>
+
+		<separator />
+
+		<menu id="/raspi" />
+		
+		<!--<menu id="applications-menu" label="Applications">
+			<item label="App1">
+				<action name="Execute">
+					<execute>App1</execute>
+				</action>
+			</item>
+                        <item label="App2">
+                                <action name="Execute">
+                                        <execute>App2</execute>
+                                </action>
+                        </item>
+		</menu>-->
+
+                <menu id="develop-menu" label="Development">
+                        <item label="VS Code" icon="/usr/share/pixmaps/vscode.png">
+                                <action name="Execute">
+                                        <execute>code</execute>
+                                </action>
+                        </item>
+                        <item label="Other">
+                                <action name="Execute">
+					<execute>other</execute>
+                                </action>
+                        </item>
+                </menu>
+
+                <separator />                
+		<menu id="setup-menu" label="Setup">
+                        <item label="Reconfigure">
+                                <action name="Reconfigure" />
+                        </item>
+                	<item label="Openbox">
+                       		<action name="Execute">
+                               		<execute>obconf</execute>
+                       		</action>
+                	</item>
+			<menu id="client-list-menu" />
+                </menu>
+
+		<separator />
+		<menu id="exit" label="Exit" >
+			<item label="Logout">
+				<action name="Exit" />
+			</item>
+			<item label="Suspend">
+				<action name="Execute">
+					<execute>systemctl suspend</execute>
+				</action>
+			</item>
+			<item label="Reboot">
+				<action name="Execute">
+					<execute>systemctl reboot</execute>
+				</action>
+			</item>
+			<item label="Shutdown">
+				<action name="Execute">
+					<execute>systemctl poweroff</execute>
+				</action>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>
